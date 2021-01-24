@@ -35,7 +35,7 @@ outputs = predict(model, inputs)
 
 #matplotlib problem on ubuntu terminal fix
 #matplotlib.use('TkAgg')   
-
+print(outputs)
 # Display results
 viz = display_images(outputs.copy(), inputs.copy())
 plt.figure(figsize=(10,5))
